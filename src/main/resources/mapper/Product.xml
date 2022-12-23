@@ -6,4 +6,8 @@
     <select id="findByType" resultType="Product" parameterType="String">
         select PNO, PIMG, PNAME, PPRICE, PRDATE from PRODUCT0 where PTYPE = #{type}
     </select>
+    <select id="findByPno" resultType="Product" parameterType="Integer">
+        select * from PRODUCT0 where PNO = #{pno}
+    </select>
+
 </mapper>

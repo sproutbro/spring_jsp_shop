@@ -7,13 +7,13 @@
     </div>
 </c:if>
 <div>
-    <form action="/join" method="post">
+    <form action="/login" method="post">
         <div class="mb-3">
             <label for="mid" class="form-label">Username</label>
-            <input type="text" class="form-control" id="mid" name="mid" required>
+            <input type="text" class="form-control" id="mid" name="username" required>
             <div class="mb-3">
                 <label for="mpw" class="form-label">Password</label>
-                <input type="password" class="form-control" id="mpw" name="mpw" required>
+                <input type="password" class="form-control" id="mpw" name="password" required>
             </div>
             <button type="submit" class="btn btn-primary">Join</button>
         </div>

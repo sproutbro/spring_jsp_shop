@@ -17,4 +17,11 @@ public class ProductServiceImpl implements ProductService {
         List<Product> productList = productRepository.findByType(type);
         model.addAttribute("productList", productList);
     }
+
+    @Override
+    public void findByPno(Model model, String pno) {
+        int intPno = Integer.parseInt(pno);
+        Product product = productRepository.findByPno(intPno);
+        model.addAttribute("product", product);
+    }
 }

@@ -20,6 +20,20 @@
         <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="/login">Login</a></li>
             <li><a class="dropdown-item" href="/join">Join</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li>
+                <form action="/cart" id="cart">
+                    <button class="dropdown-item">Cart</button>
+                </form>
+            </li>
         </ul>
     </li>
 </ul>
+
+<script>
+    $("#cart").on("submit", function (e) {
+        let item = localStorage.getItem("cart");
+        let input = $('<input type="hidden" name="cart" value="' + item + '"/>');
+        $("#cart").append(input);
+    });
+</script>

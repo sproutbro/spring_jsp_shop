@@ -6,7 +6,7 @@
 <c:forEach var="product" items="${productList}">
     <div class="col-4">
         <div class="card">
-            <img src="${product.pimg}" class="card-img-top" alt="...">
+            <img src="https://cdn.pixabay.com/photo/2014/07/31/23/28/woman-407168_960_720.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">${product.pname}</h5>
                 <p class="card-text">Price : ${product.pprice}</p>

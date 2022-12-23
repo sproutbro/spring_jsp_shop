@@ -28,7 +28,7 @@ public class UserController {
     public String joinAction(Member member, Model model) {
         Boolean result = userService.save(model, member);
         if (result) {
-            return "login";
+            return "redirect:login";
         }
         return "join";
     }

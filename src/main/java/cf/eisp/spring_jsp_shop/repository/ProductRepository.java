@@ -8,4 +8,6 @@ import java.util.List;
 @Mapper
 public interface ProductRepository {
     List<Product> findByType(String type);
+
+    Product findByPno(int pno);
 }
