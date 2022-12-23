@@ -1,0 +1,14 @@
+insert into PRODUCT0 values (PRODUCT0_SEQ.nextval, '하얀 바지', 'bottom', 500, 'exam.jpg', 'Detail....',sysdate);
+insert into PRODUCT0 values (PRODUCT0_SEQ.nextval, '검은 바지', 'bottom', 100, 'exam.jpg', 'Detail....',sysdate);
+insert into PRODUCT0 values (PRODUCT0_SEQ.nextval, '빨강 바지', 'bottom', 600, 'exam.jpg', 'Detail....',sysdate);
+insert into PRODUCT0 values (PRODUCT0_SEQ.nextval, '노랑 바지', 'bottom', 2500, 'exam.jpg', 'Detail....',sysdate);
+insert into PRODUCT0 values (PRODUCT0_SEQ.nextval, '반 바지', 'bottom', 1500, 'exam.jpg', 'Detail....',sysdate);
+insert into PRODUCT0 values (PRODUCT0_SEQ.nextval, '남자 코트', 'outer', 100, 'exam.jpg', 'Detail....',sysdate);
+insert into PRODUCT0 values (PRODUCT0_SEQ.nextval, '남자 패팅', 'outer', 11500, 'exam.jpg', 'Detail....',sysdate);
+insert into PRODUCT0 values (PRODUCT0_SEQ.nextval, '여자 패팅', 'outer', 15200, 'exam.jpg', 'Detail....',sysdate);
+insert into PRODUCT0 values (PRODUCT0_SEQ.nextval, '여자 코트', 'outer', 5300, 'exam.jpg', 'Detail....',sysdate);
+insert into PRODUCT0 values (PRODUCT0_SEQ.nextval, '어린이 코트', 'outer', 500, 'exam.jpg', 'Detail....',sysdate);
+insert into PRODUCT0 values (PRODUCT0_SEQ.nextval, '반팔 티', 'top', 1500, 'exam.jpg', 'Detail....',sysdate);
+insert into PRODUCT0 values (PRODUCT0_SEQ.nextval, '긴팔 티', 'top', 1500, 'exam.jpg', 'Detail....',sysdate);
+insert into PRODUCT0 values (PRODUCT0_SEQ.nextval, '나시 티', 'top', 1500, 'exam.jpg', 'Detail....',sysdate);
+commit;
