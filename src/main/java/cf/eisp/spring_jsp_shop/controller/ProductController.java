@@ -34,4 +34,6 @@ public class ProductController {
         productService.findByPno(model, pno);
         return "detail";
     }
+
+
 }

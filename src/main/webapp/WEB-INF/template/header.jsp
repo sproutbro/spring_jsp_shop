@@ -26,6 +26,7 @@
                     <button class="dropdown-item">Cart</button>
                 </form>
             </li>
+            <li><a class="dropdown-item" href="/notice">공지사항</a></li>
         </ul>
     </li>
 </ul>
